@@ -1,0 +1,5 @@
+# Ignore artifacts:
+.bundle/
+node_modules/
+macos/
+vendor/
