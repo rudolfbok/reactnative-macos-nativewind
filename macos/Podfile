@@ -8,7 +8,9 @@ require "#{ws_dir}/node_modules/react-native-macos/scripts/react_native_pods.rb"
 
 prepare_react_native_project!
 
-target 'macos-macOS' do
+project 'rn-nw.xcodeproj'
+
+target 'rn-nw-macOS' do
   platform :macos, '14.0'
   use_native_modules!
 
