@@ -42,4 +42,4 @@ pnpm macos
 
 ## Known issues
 
-CocoaPods installation may fail multiple times due to some problems that are disclosed in the log. Try again and repeat till it installs correctly
+- CocoaPods installation may fail multiple times due to some problems that are disclosed in the log. Try again and repeat till it installs correctly
