@@ -28,7 +28,7 @@ pod install
 cd ..
 ```
 
-From the root start Metro server
+From the root start the Metro server
 
 ```bash
 pnpm start
