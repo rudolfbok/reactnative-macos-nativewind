@@ -9,7 +9,8 @@
 		"android": "react-native run-android",
 		"ios": "react-native run-ios",
 		"format": "prettier --write .",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"test": "jest"
 	},
 	"dependencies": {
 		"@react-navigation/native": "7.1.28",
@@ -34,10 +35,12 @@
 		"@react-native/eslint-config": "0.79.7",
 		"@react-native/metro-config": "0.79.7",
 		"@react-native/typescript-config": "0.79.7",
+		"@types/jest": "^30.0.0",
 		"@types/react": "^19.0.0",
 		"@types/react-test-renderer": "^19.0.0",
 		"concurrently": "^9.2.1",
 		"eslint": "^8.19.0",
+		"jest": "^30.3.0",
 		"metro-react-native-babel-preset": "^0.77.0",
 		"prettier": "3.8.3",
 		"prettier-plugin-tailwindcss": "^0.8.0",
