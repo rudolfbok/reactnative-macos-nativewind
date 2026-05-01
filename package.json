@@ -6,15 +6,11 @@
 	"scripts": {
 		"start": "react-native start",
 		"macos": "react-native run-macos",
-		"android": "react-native run-android",
-		"ios": "react-native run-ios",
 		"format": "prettier --write .",
 		"lint": "eslint .",
 		"test": "jest"
 	},
 	"dependencies": {
-		"@react-navigation/native": "7.1.28",
-		"@react-navigation/native-stack": "7.12.0",
 		"clsx": "^2.1.1",
 		"nativewind": "4.1.23",
 		"phosphor-react-native": "^3.0.6",
@@ -23,27 +19,22 @@
 		"react-native-css-interop": "0.1.22",
 		"react-native-macos": "0.79.4",
 		"react-native-reanimated": "3.19.4",
-		"react-native-safe-area-context": "5.6.2",
 		"react-native-svg": "^15.15.4"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.25.2",
-		"@babel/preset-env": "^7.25.3",
 		"@babel/runtime": "^7.25.0",
 		"@react-native-community/cli": "18.0.0",
-		"@react-native-community/cli-platform-android": "18.0.0",
 		"@react-native-community/cli-platform-ios": "18.0.0",
-		"@react-native/babel-preset": "0.79.7",
-		"@react-native/eslint-config": "0.79.7",
-		"@react-native/metro-config": "0.79.7",
-		"@react-native/typescript-config": "0.79.7",
+		"@react-native/babel-preset": "0.79.6",
+		"@react-native/eslint-config": "0.79.6",
+		"@react-native/metro-config": "0.79.6",
+		"@react-native/typescript-config": "0.79.6",
 		"@types/jest": "^30.0.0",
 		"@types/react": "^19.0.0",
 		"@types/react-test-renderer": "^19.0.0",
-		"concurrently": "^9.2.1",
 		"eslint": "^8.19.0",
 		"jest": "^30.3.0",
-		"metro-react-native-babel-preset": "^0.77.0",
 		"prettier": "3.8.3",
 		"prettier-plugin-tailwindcss": "^0.8.0",
 		"react-test-renderer": "19.0.0",
@@ -52,11 +43,5 @@
 	},
 	"engines": {
 		"node": ">=18"
-	},
-	"pnpm": {
-		"overrides": {
-			"@react-navigation/core": "7.14.0",
-			"@react-navigation/elements": "2.9.5"
-		}
 	}
 }
