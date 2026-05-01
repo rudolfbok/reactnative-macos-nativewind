@@ -24,7 +24,7 @@ export default function App() {
 		<View className="flex-1 items-center justify-center bg-[#F2F2F7] dark:bg-[#0D1119]">
 			<View className="items-center gap-4 rounded-3xl bg-white p-10 dark:bg-[#161A21]">
 				<Text className="text-5xl font-bold">React Native macOS</Text>
-				<Text>A clean starter template for building macOS apps with React Native, TypeScript, and Nativewind.</Text>
+				<Text>A clean starter template for building macOS apps with React Native, TypeScript and Nativewind.</Text>
 				<View className="flex-row gap-2">
 					<FeaturePill Icon={LaptopIcon} name="React Native macOS" color={switchColor('black', 'white')} />
 					<FeaturePill Icon={WindIcon} name="Nativewind" color="#05900A" />
