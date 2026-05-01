@@ -4,8 +4,8 @@
 	"private": true,
 	"packageManager": "pnpm@10.33.0",
 	"scripts": {
-		"start": "pnpm react-native start",
-		"macos": "pnpm react-native run-macos",
+		"start": "react-native start",
+		"macos": "react-native run-macos",
 		"android": "react-native run-android",
 		"ios": "react-native run-ios",
 		"format": "prettier --write .",
