@@ -20,7 +20,7 @@ You can choose which package manager you will use, PNPM is default but NPM and Y
 pnpm install
 ```
 
-Install CococaPods
+Install CocoaPods
 
 ```bash
 cd macos
