@@ -6,43 +6,47 @@
 	"scripts": {
 		"start": "react-native start",
 		"macos": "react-native run-macos",
+		"dev": "stmux -- [ \"react-native start\" .. \"wait-on tcp:localhost:8081 && pnpm macos\" ]",
 		"format": "prettier --write .",
 		"lint": "eslint .",
 		"test": "jest"
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",
-		"nativewind": "4.1.23",
+		"nativewind": "4.2.6",
 		"phosphor-react-native": "^3.0.6",
-		"react": "19.0.0",
-		"react-native": "0.79.6",
-		"react-native-css-interop": "0.1.22",
-		"react-native-macos": "0.79.4",
-		"react-native-reanimated": "3.19.4",
-		"react-native-svg": "^15.15.4"
+		"react": "19.1.4",
+		"react-native": "0.81.6",
+		"react-native-css-interop": "0.2.6",
+		"react-native-macos": "0.81.9",
+		"react-native-reanimated": "4.3.4",
+		"react-native-svg": "^15.15.5",
+		"react-native-worklets": "0.8.3",
+		"stmux": "^2.1.1",
+		"wait-on": "^9.1.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.25.2",
 		"@babel/plugin-transform-react-jsx": "^7.28.6",
 		"@babel/runtime": "^7.25.0",
-		"@react-native-community/cli": "18.0.0",
-		"@react-native-community/cli-platform-ios": "18.0.0",
-		"@react-native/babel-preset": "0.79.6",
-		"@react-native/eslint-config": "0.79.6",
-		"@react-native/metro-config": "0.79.6",
-		"@react-native/typescript-config": "0.79.6",
+		"@react-native-community/cli": "20.0.0",
+		"@react-native-community/cli-platform-ios": "20.0.0",
+		"@react-native/babel-preset": "0.81.6",
+		"@react-native/eslint-config": "0.81.6",
+		"@react-native/metro-config": "0.81.6",
+		"@react-native/typescript-config": "0.81.6",
 		"@types/jest": "^30.0.0",
-		"@types/react": "^19.0.0",
-		"@types/react-test-renderer": "^19.0.0",
+		"@types/react": "^19.1.4",
+		"@types/react-test-renderer": "^19.1.0",
 		"eslint": "^8.19.0",
 		"jest": "^30.3.0",
 		"prettier": "3.8.3",
 		"prettier-plugin-tailwindcss": "^0.8.0",
-		"react-test-renderer": "19.0.0",
+		"react-test-renderer": "19.1.4",
 		"tailwindcss": "^3.4.18",
-		"typescript": "5.0.4"
+		"typescript": "^5.8.3"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=20.19.4"
 	}
 }

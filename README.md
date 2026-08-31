@@ -1,6 +1,6 @@
 # React Native macOS Nativewind template
 
-A minimal macOS desktop app template with Nativewind, Reanimated and Phosphor Icons
+A minimal New Architecture macOS desktop app template with Nativewind, Reanimated and Phosphor Icons.
 
 **Not intended for iOS or Android.**
 
@@ -9,7 +9,7 @@ A minimal macOS desktop app template with Nativewind, Reanimated and Phosphor Ic
 - macOS
 - Xcode
 - CocoaPods
-- Node.js 18+
+- Node.js 20.19.4+
 - pnpm 10+
 
 ## How to get started
@@ -20,11 +20,12 @@ You can choose which package manager you will use, PNPM is default but NPM and Y
 pnpm install
 ```
 
-Install CocoaPods
+Install the Ruby dependencies and CocoaPods
 
 ```bash
+ruby -S bundle install
 cd macos
-pod install
+ruby -S bundle exec pod install
 cd ..
 ```
 
