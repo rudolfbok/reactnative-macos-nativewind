@@ -10,9 +10,9 @@ ENV['RCT_NEW_ARCH_ENABLED'] = '1'
 
 prepare_react_native_project!
 
-project 'rn-nw.xcodeproj'
+project 'rn-uw.xcodeproj'
 
-target 'rn-nw-macOS' do
+target 'rn-uw-macOS' do
   platform :macos, '14.0'
   use_native_modules!
 
