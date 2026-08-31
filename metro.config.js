@@ -1,5 +1,5 @@
-const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
-const { withNativeWind } = require('nativewind/dist/metro');
+const { getDefaultConfig } = require('@react-native/metro-config');
+const { withUniwindConfig } = require('uniwind/metro');
 
 /**
  * Metro configuration
@@ -7,9 +7,9 @@ const { withNativeWind } = require('nativewind/dist/metro');
  *
  * @type {import('metro-config').MetroConfig}
  */
-const config = mergeConfig(getDefaultConfig(__dirname), {
-	/* Your existing config if you had any */
-});
+const config = getDefaultConfig(__dirname);
 
-// withNativeWind takes your config and the path to your CSS entry point
-module.exports = withNativeWind(config, { input: './globals.css' });
+module.exports = withUniwindConfig(config, {
+	cssEntryFile: './globals.css',
+	polyfills: { rem: 14 },
+});
