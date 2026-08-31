@@ -33,7 +33,7 @@ export default function App() {
 				</View>
 				<View className="flex-row items-center gap-2">
 					<LightbulbIcon color={switchColor('black', 'white')} />
-					<Text>Edit App.tsx to start building your app</Text>
+					<Text>Edit src/App.tsx to start building your app</Text>
 				</View>
 			</View>
 		</View>
