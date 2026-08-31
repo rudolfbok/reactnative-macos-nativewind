@@ -1,6 +1,6 @@
 # React Native macOS Uniwind template
 
-A minimal New Architecture macOS desktop app template with Uniwind, Reanimated and Phosphor Icons.
+A minimal New Architecture macOS desktop app template with Uniwind and Phosphor Icons.
 
 **Not intended for iOS or Android.**
 
