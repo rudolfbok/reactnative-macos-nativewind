@@ -19,7 +19,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-macOS-111111?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
   <img src="https://img.shields.io/badge/New%20Architecture-enabled-8b5cf6?style=flat-square" alt="New Architecture enabled" />
-  <img src="https://img.shields.io/badge/license-private-lightgrey?style=flat-square" alt="Private project" />
 </p>
 
 <br />
@@ -147,11 +146,3 @@ Example:
 If CocoaPods reports a transient installation error, run the install command again. Native dependency resolution can occasionally fail while fetching or compiling a pod.
 
 If Metro is already running on port `8081`, stop the existing process before using `pnpm dev`.
-
-## 📄 License
-
-This project is currently private and does not publish a license. Add one before distributing or open-sourcing the app.
-
-<p align="center">
-  Built with ☕, React Native, and a little macOS magic.
-</p>
