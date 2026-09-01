@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="macos/rn-uw-macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-512.png" alt="React Native macOS Uniwind app icon" width="180" />
+  <img src="macos/rn-uw-macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-512.png" alt="React Native macOS Uniwind app icon" width="180" style="border-radius: 28px;" />
 </p>
 
 <h1 align="center">React Native macOS · Uniwind</h1>
