@@ -25,11 +25,11 @@ export default function App() {
 			<View className="flex h-fit flex-col items-center gap-4 rounded-3xl bg-white p-8 dark:bg-[#161A21]">
 				<View className="flex flex-col items-center gap-2">
 					<Text className="text-5xl font-bold">React Native macOS</Text>
-					<Text>A clean starter template for building macOS apps with React Native, TypeScript and Uniwind.</Text>
+					<Text>Starter template for building macOS apps with React Native, TypeScript and Uniwind.</Text>
 				</View>
 				<View className="flex-row gap-2">
-					<FeaturePill Icon={LaptopIcon} name="React Native macOS" color={switchColor('black', 'white')} />
-					<FeaturePill Icon={WindIcon} name="Uniwind" color="#05900A" />
+					<FeaturePill Icon={LaptopIcon} name="React Native" color="#2CA9D0" />
+					<FeaturePill Icon={WindIcon} name="Uniwind" color="#D53AA2" />
 					<FeaturePill Icon={FileTsIcon} name="TypeScript" color="#0079FF" />
 					<FeaturePill Icon={PackageIcon} name="PNPM" color="#EB9331" />
 				</View>
